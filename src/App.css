@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(to right,yellow,orange);
+}
+
+.calculator{
+    background-color: rgb(80, 71, 88);
+    max-width: 20rem;
+    min-height:15rem;
+    max-height: auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    color:rgb(254, 252, 250);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.buttons{
+    display: grid;
+    height:18rem;
+    grid-template-columns: repeat(4,5rem);
+}
+
+.buttons >button{
+    background-color: rgb(101, 174, 243);
+    font-size: 1.5rem;
+    font-weight: 520;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:90vh;
+
+}
+
+.sub_cal{
+    padding:10px;
+    min-height: 1rem;
+    font-size: 1.2rem;
+    color:rgb(249, 247, 213)
+    
+}
+
+.main_cal{
+    padding:0 10px 10px 10px;
+    min-height: 1rem;
+    font-size: 1.5rem;
+    color: rgb(254, 230, 198);
+    
+}
+
+
